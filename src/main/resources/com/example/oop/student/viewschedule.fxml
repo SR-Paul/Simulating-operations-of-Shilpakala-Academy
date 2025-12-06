@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="720.0" prefWidth="961.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop.courseregistrationController">
+   <children>
+      <TextField fx:id="viewscheduletextfield" layoutX="304.0" layoutY="116.0" prefHeight="50.0" prefWidth="233.0" text="     View Schedule">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TableView fx:id="viewtableview" layoutX="118.0" layoutY="222.0" prefHeight="200.0" prefWidth="665.0">
+        <columns>
+          <TableColumn fx:id="coursename" prefWidth="151.1999969482422" text="Course name" />
+          <TableColumn fx:id="classroom" prefWidth="136.0" text="Classroom" />
+            <TableColumn fx:id="classtime" prefWidth="183.199951171875" text="Classtime" />
+            <TableColumn fx:id="instructor" prefWidth="198.4000244140625" text="Instructor" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

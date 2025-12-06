@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="743.0" prefWidth="1043.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop.viewfeedbackController">
+   <children>
+      <Text fx:id="studentfeedbacktext" layoutX="321.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STUDENT FEEDBACK" wrappingWidth="189.336669921875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="coursetext" layoutX="76.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Course" wrappingWidth="98.13671875" />
+      <Text fx:id="semestertext" layoutX="489.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Semester" wrappingWidth="98.13671875" />
+      <ComboBox fx:id="coursecombobox" layoutX="135.0" layoutY="155.0" prefWidth="150.0" />
+      <ComboBox fx:id="semestercombobox" layoutX="560.0" layoutY="153.0" prefWidth="150.0" />
+      <TableView fx:id="feedbacktable" layoutX="74.0" layoutY="235.0" prefHeight="200.0" prefWidth="637.0"/>
+        </columns>
+          <TableColumn fx:id="coursenamecolumn" prefWidth="164.79995727539062" text="Course Name" />
+          <TableColumn fx:id="ratingcolumn" prefWidth="176.8000030517578" text="Rating" />
+            <TableColumn fx:id="totalresponsecolumn" prefWidth="142.39996337890625" text="Total Response" />
+            <TableColumn fx:id="lastfeedbackcolumn" prefWidth="153.60003662109375" text="Last Feedback date" />
+</AnchorPane>

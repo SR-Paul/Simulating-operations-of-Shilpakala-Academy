@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="680.0" prefWidth="967.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop.StudentDashboardController">
+   <children>
+      <Button layoutX="144.0" layoutY="366.0" mnemonicParsing="false" onAction="#SubmitOA" prefHeight="26.0" prefWidth="190.0" text="Submit Assignment/Project" />
+      <Button layoutX="144.0" layoutY="287.0" mnemonicParsing="false" onAction="#ViewscheduleOA" prefHeight="26.0" prefWidth="190.0" text="View Schedule" />
+      <Button layoutX="467.0" layoutY="287.0" mnemonicParsing="false" onAction="#applyOA" prefHeight="26.0" prefWidth="182.0" text="Apply for Cultural Event" />
+      <Button layoutX="464.0" layoutY="212.0" mnemonicParsing="false" onAction="#paymentOA" prefHeight="26.0" prefWidth="182.0" text="Pay Fees" />
+      <Button layoutX="467.0" layoutY="366.0" mnemonicParsing="false" onAction="#DownloadCertificateOA" prefHeight="26.0" prefWidth="182.0" text="Download Certificate" />
+      <Button layoutX="145.0" layoutY="438.0" mnemonicParsing="false" onAction="#ViewResultOA" prefHeight="26.0" prefWidth="189.0" text="View Result" />
+      <Button layoutX="470.0" layoutY="438.0" mnemonicParsing="false" onAction="#feedbackOA" prefHeight="26.0" prefWidth="176.0" text="Feedback" />
+      <Button layoutX="144.0" layoutY="212.0" mnemonicParsing="false" onAction="#registerOA" prefHeight="26.0" prefWidth="190.0" text="Register For Course" />
+      <TextField fx:id="studentdashboard" layoutX="177.0" layoutY="102.0" prefHeight="37.0" prefWidth="454.0" text="                                               STUDENT DASHBOARD                                                        " />
+      <Text fx:id="shilpokalaacademy" layoutX="301.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shilpokala Academy" wrappingWidth="223.7366943359375">
+         <font>
+            <Font size="21.0" />
+         </font></Text>
+   </children>
+</AnchorPane>

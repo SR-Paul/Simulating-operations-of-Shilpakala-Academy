@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="723.0" prefWidth="995.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop.sendannouncementController">
+   <children>
+      <Text fx:id="sendannouncementtext" layoutX="305.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Send Announcement" wrappingWidth="213.33673095703125">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fx:id="coursetext" layoutX="88.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Course" wrappingWidth="103.73672485351562">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="coursecombobox" layoutX="205.0" layoutY="137.0" prefWidth="150.0" />
+      <Text fx:id="announcementmessagetext" layoutX="88.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Announcement Message" wrappingWidth="103.73672485351562">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="announcementtextarea" layoutX="205.0" layoutY="202.0" prefHeight="152.0" prefWidth="316.0" />
+      <Button layoutX="651.0" layoutY="545.0" mnemonicParsing="false" onAction="#sendannouncementOA" prefHeight="26.0" prefWidth="213.0" text="Send Announcement" />
+   </children>
+</AnchorPane>
