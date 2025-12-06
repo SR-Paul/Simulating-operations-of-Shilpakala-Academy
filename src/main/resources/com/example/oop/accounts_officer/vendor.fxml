@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLER_NAME">
+    <children>
+        <Button layoutX="14.0" layoutY="47.0" mnemonicParsing="false" text="Import last Year Budget" />
+        <Button layoutX="488.0" layoutY="47.0" mnemonicParsing="false" text="Edit" />
+        <Button layoutX="25.0" layoutY="360.0" mnemonicParsing="false" text="Back" />
+        <Button layoutX="25.0" layoutY="284.0" mnemonicParsing="false" text="Validate Totals" />
+        <TableView layoutX="217.0" layoutY="47.0" prefHeight="200.0" prefWidth="152.0">
+            <columns>
+                <TableColumn prefWidth="75.0" text="Dept 1" />
+                <TableColumn prefWidth="75.0" text="Dept 2" />
+            </columns>
+        </TableView>
+        <Button layoutX="488.0" layoutY="284.0" mnemonicParsing="false" text="Save Draft" />
+        <Button layoutX="454.0" layoutY="347.0" mnemonicParsing="false" text="Submit for Approval" />
+    </children>
+</AnchorPane>

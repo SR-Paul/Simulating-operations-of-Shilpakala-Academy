@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLER_NAME">
+    <children>
+        <Button layoutX="25.0" layoutY="33.0" mnemonicParsing="false" text="New Journal Entry" />
+        <TableView layoutX="25.0" layoutY="71.0" prefHeight="200.0" prefWidth="227.0">
+            <columns>
+                <TableColumn prefWidth="75.0" text="C1" />
+                <TableColumn prefWidth="75.0" text="C2" />
+                <TableColumn prefWidth="75.0" text="Column X" />
+            </columns>
+        </TableView>
+        <Button layoutX="335.0" layoutY="46.0" mnemonicParsing="false" text="Post Entry" />
+        <Button layoutX="233.0" layoutY="341.0" mnemonicParsing="false" text="Run Reconciliation" />
+        <Button layoutX="64.0" layoutY="292.0" mnemonicParsing="false" text="Validate Entry" />
+        <Button layoutX="507.0" layoutY="7.0" mnemonicParsing="false" text="Close Period" />
+        <Button layoutX="525.0" layoutY="354.0" mnemonicParsing="false" text="Back" />
+        <TableView layoutX="338.0" layoutY="81.0" prefHeight="200.0" prefWidth="227.0">
+            <columns>
+                <TableColumn prefWidth="75.0" text="C1" />
+                <TableColumn prefWidth="75.0" text="C2" />
+                <TableColumn prefWidth="75.0" text="Column X" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLER_NAME">
+    <children>
+        <Button layoutX="41.0" layoutY="59.0" mnemonicParsing="false" onAction="#newVoucherOA" text="New Voucher" />
+        <TableView fx:id="showTableOA" layoutX="211.0" layoutY="85.0" prefHeight="200.0" prefWidth="151.0">
+            <columns>
+                <TableColumn prefWidth="75.0" text="Purpose" />
+                <TableColumn prefWidth="75.0" text="Amount" />
+            </columns>
+        </TableView>
+        <Button layoutX="542.0" layoutY="59.0" mnemonicParsing="false" onAction="#editOA" text="Edit" />
+        <Button layoutX="41.0" layoutY="349.0" mnemonicParsing="false" onAction="#backOA" text="Back" />
+        <Button layoutX="506.0" layoutY="349.0" mnemonicParsing="false" onAction="#submitOA" text="Submit" />
+        <Button layoutX="474.0" layoutY="307.0" mnemonicParsing="false" onAction="#uoploadReceiptOA" text="Upload Receipt" />
+    </children>
+</AnchorPane>
